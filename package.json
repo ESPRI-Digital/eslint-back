@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-espri-back",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ES Lint rules used by ESPRI Digital on server side TS app",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,9 @@
     "url": "https://github.com/ESPRI-Digital/eslint-back/issues"
   },
   "homepage": "https://github.com/ESPRI-Digital/eslint-back#readme",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "8.23.0",
-    "@typescript-eslint/eslint-plugin": "5.32.0"
+    "@typescript-eslint/eslint-plugin": "5.32.0",
+    "@typescript-eslint/parser": "5.36.2"
   }
 }
