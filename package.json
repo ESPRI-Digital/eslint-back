@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-espri-back",
+  "version": "0.1.0",
+  "description": "ES Lint rules used by ESPRI Digital on server side TS app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ESPRI-Digital/eslint-back.git"
+  },
+  "author": "ESPRI Digital",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ESPRI-Digital/eslint-back/issues"
+  },
+  "homepage": "https://github.com/ESPRI-Digital/eslint-back#readme",
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "@typescript-eslint/eslint-plugin": "5.32.0"
+  }
+}
