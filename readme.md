@@ -4,7 +4,7 @@
 ## Run
 
 ```bash
-npm install -D eslint@8.31.0 @typescript-eslint/eslint-plugin@5.48.0 eslint-config-espri-back@0.1.1
+npm install -D eslint@8.31.0 @typescript-eslint/eslint-plugin@5.48.0 eslint-config-espri-back@0.2.0
 ```
 
 ## .eslintrc.js
