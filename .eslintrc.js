@@ -54,5 +54,13 @@ module.exports = {
         offsetTernaryExpressions: true,
       },
     ],
+    '@typescript-eslint/no-floating-promises': 'error',
+    'no-async-promise-executor': 'error',
+    'no-await-in-loop': 'error',
+    'no-promise-executor-return': 'error',
+    'no-return-await': 'error',
+    '@typescript-eslint/await-thenable': 'error',
+    '@typescript-eslint/no-misused-promises': 'error',
+    '@typescript-eslint/promise-function-async': 'error',
   },
 };
