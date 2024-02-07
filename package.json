@@ -3,6 +3,7 @@
   "version": "2.0.0-beta.1",
   "description": "ES Lint rules used by ESPRI Digital on server side TS app",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
