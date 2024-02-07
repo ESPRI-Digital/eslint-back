@@ -4,27 +4,17 @@
 ## Run
 
 ```bash
-npm install -D eslint@8.31.0 @typescript-eslint/eslint-plugin@5.48.0 eslint-config-espri-back@0.2.0
+npm install -D  eslint-config-espri-back@2.0.0
 ```
 
-## .eslintrc.js
+## eslint.config.js
 
 ```js
-module.exports = {
-  parserOptions: {
-    project: 'tsconfig.json',
-    sourceType: 'module',
-  },
-  extends: [
-    'espri-back',
-  ],
-  ignorePatterns: ['.eslintrc.js'],
-  root: true,
-  env: {
-    node: true,
-    jest: true,
-  },
-};
+import eslintESPRIBack from "eslint-config-espri-back";
+
+export default [
+	eslintESPRIBack,
+];
 ```
 
 # Rules explanations
