@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0-beta.1] - 2024-02-07
+
+### Changed
+- Update eslint version
+- Update typescript-eslint version
+- Refactor to use eslint flat configuration
+
 ## [1.0.0] - 2023-03-27
 
 ### Changed
