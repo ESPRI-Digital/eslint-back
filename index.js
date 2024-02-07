@@ -2,6 +2,8 @@ import typescriptParser from "@typescript-eslint/parser"
 import typescriptEslintPlugin from "@typescript-eslint/eslint-plugin"
 
 export default {
+    files: ["**/*.ts"],
+	ignores: ["eslint.config.js"],
     languageOptions: {
         parser: typescriptParser,
         parserOptions: {
