@@ -4,7 +4,7 @@
 ## Run
 
 ```bash
-npm install -D  eslint-config-espri-back@2.0.0
+npm install -D eslint-config-espri-back@3.0.0
 ```
 
 ## eslint.config.js
@@ -12,9 +12,7 @@ npm install -D  eslint-config-espri-back@2.0.0
 ```js
 import eslintESPRIBack from "eslint-config-espri-back";
 
-export default [
-	eslintESPRIBack,
-];
+export default eslintESPRIBack;
 ```
 
 # Rules explanations

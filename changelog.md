@@ -1,5 +1,10 @@
 # Changelog
 
+## [3.0.0] - 2024-06-07
+
+### Changed
+- Refactor using @antfu/eslint-config as default eslint configuration
+
 ## [2.0.0-beta.1] - 2024-02-07
 
 ### Changed
