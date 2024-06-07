@@ -1,9 +1,12 @@
 {
   "name": "eslint-config-espri-back",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "ES Lint rules used by ESPRI Digital on server side TS app",
   "main": "index.js",
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,8 +22,11 @@
   },
   "homepage": "https://github.com/ESPRI-Digital/eslint-back#readme",
   "peerDependencies": {
-    "eslint": ">=8",
     "@typescript-eslint/eslint-plugin": ">=6",
-    "@typescript-eslint/parser": ">=6"
+    "@typescript-eslint/parser": ">=6",
+    "eslint": ">=8"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^2.20.0"
   }
 }
