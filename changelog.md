@@ -1,6 +1,6 @@
 # Changelog
 
-## [4.0.1] - 2024-07-29
+## [4.1.0] - 2024-07-29
 
 ### Changed
 - Change deprecaded rules :
