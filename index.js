@@ -24,17 +24,18 @@ export default antfu(
             '@typescript-eslint/explicit-function-return-type': 'off',
             '@typescript-eslint/explicit-module-boundary-types': 'off',
             '@typescript-eslint/no-empty-function': 'off',
-            '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
-            'style/semi': ['error', 'always'],
-            '@typescript-eslint/semi': ['error', 'always'],
             '@typescript-eslint/no-floating-promises': 'error',
+            '@typescript-eslint/await-thenable': 'error',
+            '@typescript-eslint/no-misused-promises': 'error',
+            '@typescript-eslint/promise-function-async': 'error',
             'no-async-promise-executor': 'error',
             'no-await-in-loop': 'error',
             'no-promise-executor-return': 'error',
             'no-return-await': 'error',
-            '@typescript-eslint/await-thenable': 'error',
-            '@typescript-eslint/no-misused-promises': 'error',
-            '@typescript-eslint/promise-function-async': 'error',
+            'curly': ['error', 'all'],
+            'object-shorthand': ['error', 'never'],
+            'style/comma-dangle': ['error', 'always-multiline'],
+            'style/semi': ['error', 'always'],
             'style/member-delimiter-style': [
                 'error',
                 {
@@ -44,8 +45,7 @@ export default antfu(
                     },
                 },
             ],
-            'curly': ['error', 'all'],
-            '@typescript-eslint/indent': [
+            'style/indent': [
                 'error',
                 2,
                 {
@@ -87,7 +87,6 @@ export default antfu(
                 offsetTernaryExpressions: true,
                 },
             ],
-            'object-shorthand': ['error', 'never'],
         },
     },
 );

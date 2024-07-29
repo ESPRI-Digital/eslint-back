@@ -1,5 +1,18 @@
 # Changelog
 
+## [4.0.1] - 2024-07-29
+
+### Changed
+- Change deprecaded rules :
+    - @typescript-eslint/comma-dangle -> style/comma-dangle
+    - @typescript-eslint/semi -> style/semi
+    - @typescript-eslint/indent -> style/indent
+
+## [4.0.0] - 2024-07-29
+
+### Changed
+- Remove dependencies @typescript-eslint/eslint-plugin and @typescript-eslint/parser bacause they are already installe in @antfu/eslint-config and can make conflicts
+
 ## [3.0.0] - 2024-06-07
 
 ### Changed

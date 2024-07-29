@@ -4,7 +4,7 @@
 ## Run
 
 ```bash
-npm install -D eslint-config-espri-back@3.0.0
+npm install -D eslint-config-espri-back@x.x.x
 ```
 
 ## eslint.config.js
