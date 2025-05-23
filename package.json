@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-espri-back",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "description": "ES Lint rules used by ESPRI Digital on server side TS app",
   "main": "index.js",
   "keywords": [
